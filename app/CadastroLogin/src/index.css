@@ -1,0 +1,83 @@
+:root {
+  font-family: 'consolas';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+}
+
+body {
+  display: flex;
+  min-width: 320px;
+}
+
+h1 {
+  font-size: 2.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #3d3d3d;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  transform: scale(0.95);
+  background-color: #242424;
+}
+
+main {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 100px;
+}
+
+.modal {
+  background-color: #fff;
+  color:#262626;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 2em;
+  position: relative;
+}
+
+.modal h1 {
+  display: block;
+  border-bottom: 1px solid #3d3d3d;
+  margin-bottom: .5em;
+  padding-top: .5em;
+  margin: 0 0 .25em 0;
+  padding: 0;
+}
+
+.modal form > div {
+  margin-bottom: 1em;
+  background-color: #3d3d3d;
+  color: white;
+  border-radius: 3px;
+}
