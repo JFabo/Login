@@ -22,9 +22,12 @@ body {
     align-items: center;
 }
 
-body {
+main {
   display: flex;
-  min-width: 320px;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -46,15 +49,6 @@ button {
 button:hover {
   transform: scale(0.95);
   background-color: #242424;
-}
-
-main {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-left: 100px;
 }
 
 .modal {

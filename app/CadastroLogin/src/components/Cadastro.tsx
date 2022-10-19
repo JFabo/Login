@@ -32,6 +32,7 @@ export default function ({ setRoute }: { setRoute: Dispatch<SetStateAction<strin
   }
 
   return <>
+  <body>
   <main>
   <div className="modal">
   <form onSubmit={enviarDados}>
@@ -61,7 +62,6 @@ export default function ({ setRoute }: { setRoute: Dispatch<SetStateAction<strin
     </form>
   </div>
   </main>
-  
-    
+  </body>
   </>
 }
